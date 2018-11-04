@@ -1,6 +1,8 @@
 ---
 layout: default
+years: [1956, 1950, 1935, 1905]
 ---
+
 <div class="post">
 
   <header class="post-header">
@@ -14,6 +16,10 @@ layout: default
 
   {% if page.news %}
     {% include news.html %}
+  {% endif %}
+
+  {% if page.publications %}
+    {% include publications.html %}
   {% endif %}
 
   {% if page.social %}

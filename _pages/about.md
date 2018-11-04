@@ -1,8 +1,8 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Amirali</strong> Sharifian
+description: <a href="">PhD student</a>. at Simon Fraser University.
 
 profile:
   align: right
@@ -13,6 +13,7 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true
+publications: true
 social: true
 ---
 
