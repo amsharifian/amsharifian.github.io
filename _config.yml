@@ -66,8 +66,14 @@ collections:
       layout: post
     output: true
     permalink: /publications/:path/
+  software:
+    defaults:
+      layout: post
+    output: true
+    permalink: /software/:path/
 
 news_limit: 5
+software_limit: 5
 pub_years: [2018, 2016, 2013]
 
 # -----------------------------------------------------------------------------

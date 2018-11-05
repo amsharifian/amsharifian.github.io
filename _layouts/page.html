@@ -13,6 +13,9 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.software %}
+    {% include software.html %}
+  {% endif %}
 
   {% if page.publications %}
     {% include publications.html %}

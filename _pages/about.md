@@ -13,8 +13,9 @@ profile:
     <!-- <p>123 your address street</p>
     <p>Your City, State 12345</p> -->
 
-news: true
+news: false
 publications: true
+software: true
 social: true
 ---
 
@@ -22,7 +23,7 @@ I am Amirali Sharifian, third-year PhD student at Simon Fraser University(SFU). 
 
 From summer 2018, I started working at **Huawei Technology**, Hardware Acceleration Lab, as a Research Engineer while I'm continuing my PhD.
 
-I'm developing **_Dandelion_** during my PhD. [Dandelion](https://github.com/sfu-arch/dandelion-lib) is a microarchitecture intermediate representation, call it $$\mu IR$$, that tries to abstract an accelerator design. Using Dandelion designer can: analysis, transform and optimize his design base on his target.
+I'm developing **_Dandelion_** during my PhD. [Dandelion](https://github.com/sfu-arch/dandelion-lib) is a microarchitecture intermediate representation, call it $$\mu IR$$, that helps computer architecture designers to abstract their accelerator design to an IR. Using Dandelion designers can: analysis, transform and optimize their accelerator and find a design that matches their goal.
 
 I have released my projects on our lab's repo, [sfu-arch](https://github.com/sfu-arch). Feel free to test them and you are more than welcome to give me your feedbacks.
 
