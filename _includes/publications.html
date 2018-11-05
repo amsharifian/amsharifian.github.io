@@ -2,8 +2,10 @@
   <h2>Publications</h2>
   {% if site.publications  %}
     <table>
-      <h3 class="year">{{y}}</h3>
-      {% bibliography -f papers %}
+      {% for y in site.pub_years %}
+        <h3 class="year">{{y}}</h3>
+        {% bibliography -f papers -q @*[year={{y}}]* %}
+      {% endfor %}
     </table>
   {% else %}
     <p>No news so far...</p>
