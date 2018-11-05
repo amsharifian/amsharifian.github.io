@@ -27,6 +27,8 @@ I'm developing **_Dandelion_** during my PhD. [Dandelion](https://github.com/sfu
 
 I have released my projects on our lab's repo, [sfu-arch](https://github.com/sfu-arch). Feel free to test them and you are more than welcome to give me your feedbacks.
 
+[[Resume](/assets/pdf/resume.pdf)]
+
 <!-- During my Master I I'm also interested in bioinformatic and applying hardware approach in bioinformatic algorithms. -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
