@@ -3,6 +3,33 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{sharifianTapas,
+ author = {Margerm, Steve and Sharifian, Amirali and and Guha, Apala and Shriraman, Arrvindh and Pokam, Giells},
+ title = {TAPAS: Generating Parallel Accelerators from Parallel Programs},
+ booktitle = {The 51th Annual IEEE/ACM International Symposium on Microarchitecture},
+ series = {MICRO-51},
+ year = {2018},
+ location = {Fukuako, Japan},
+ pages = {49:1--49:14},
+ articleno = {49},
+ numpages = {14},
+ url = {http://dl.acm.org/citation.cfm?id=3195638.3195698},
+ acmid = {3195698},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ pdf={tapasMicro2018.pdf},
+ slides={tapas_slides.pdf},
+ code={https://github.com/sfu-arch/tapas},
+ abstract={High-level-synthesis (HLS) tools generate accelerators from software programs to ease the task of building hardware. Unfortunately, current HLS tools have limited support for concurrency, which impacts the speedup achievable with the generated accelerator.
+Current approaches only target fixed static patterns (e.g., pipeline, data-parallel kernels). This constraints the ability of software programmers to express concurrency.
+Moreover, the generated accelerator loses a key benefit of parallel hardware, dynamic asynchrony, and the potential to hide long latency and cache misses.
+
+We have developed TAPAS, an HLS toolchain for generating parallel accelerators from programs with dynamic parallelism. TAPAS is built on top of Tapir [22], [39], which embeds fork-join parallelism into the compiler’s
+intermediate-representation. TAPAS leverages the compiler IR to identify parallelism and synthesizes the hardware logic. TAPAS provides first-class architecture
+support for spawning, coordinating and synchronizing tasks during accelerator execution. We demonstrate TAPAS can generate accelerators for concurrent
+programs with heterogeneous, nested and recursive parallelism. Our evaluation on Intel-Altera DE1-SoC and Arria-10 boards demonstrates that TAPAS generated accelerators achieve 20× the power efficiency of an Intel Xeon, while maintaining comparable performance. We also show that TAPAS enables lightweight tasks that can be spawned in '10 cycles and enables accelerators to exploit available fine-grain parallelism. TAPAS is a complete HLS toolchain for synthesizing parallel programs to accelerators and is open-sourced.}
+}
+
 @inproceedings{sharifianChain,
  author = {Sharifian, Amirali and Kumar, Snehasish and Guha, Apala and Shriraman, Arrvindh},
  title = {CHAINSAW: Von-neumann Accelerators to Leverage Fused Instruction Chains},
@@ -56,6 +83,8 @@ month={May},}
  acmid = {2926269},
  publisher = {ACM},
  address = {New York, NY, USA},
+ pdf={peruse.pdf},
+ slides={peruse_slides.pdf},
  keywords = {Accelerator, machine learning, static analysis},
  abstract = {There exist a multitude of execution models available today for a developer to target. The choices vary from general purpose processors to fixed-function hardware accelerators with a large number of variations in-between. There is a growing demand to assess the potential benefits of porting or rewriting an application to a target architecture in order to fully exploit the benefits of performance and/or energy efficiency offered by such targets. However, as a first step of this process, it is necessary to determine whether the application has characteristics suitable for acceleration.
 
