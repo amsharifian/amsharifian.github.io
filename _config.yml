@@ -63,6 +63,11 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  publications:
+    defaults:
+      layout: post
+    output: true
+    permalink: /publications/:path/
 
 news_limit: 5
 

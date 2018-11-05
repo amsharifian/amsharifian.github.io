@@ -1,0 +1,11 @@
+<div class="news">
+  <h2>Publications</h2>
+  {% if site.publications  %}
+    <table>
+      <h3 class="year">{{y}}</h3>
+      {% bibliography -f papers %}
+    </table>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

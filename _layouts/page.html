@@ -14,12 +14,13 @@ years: [1956, 1950, 1935, 1905]
     {{ content }}
   </article>
 
-  {% if page.news %}
-    {% include news.html %}
-  {% endif %}
 
   {% if page.publications %}
     {% include publications.html %}
+  {% endif %}
+
+  {% if page.news %}
+    {% include news.html %}
   {% endif %}
 
   {% if page.social %}
