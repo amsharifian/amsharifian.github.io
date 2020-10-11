@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Amirali</strong> Sharifian
-description: <a href="">PhD student</a>. at Simon Fraser University.
+description: <a href="">Software Engineer</a>. at Untether AI.
 
 profile:
   align: right
@@ -21,15 +21,10 @@ entry: resume.pdf
 ---
 
 
-I am a _Computer Architecture Ph.D._ candidate in Computer Science at Simon Fraser University(SFU) advised by [Arrvindh Shriraman](http://www.cs.sfu.ca/~ashriram/).
+I do computer architecture and programming languages. I like to develop frameworks and that break down abstraction barriers and rethinks the hardware–software interface. I worked with the [Architecture Research Group](http://banyanlab.cs.sfu.ca/) at [Simon Fraser University](https://www.sfu.ca/computing.html) advised by [Arrvindh Shriraman](https://www.cs.sfu.ca/~ashriram/).
 
-My thesis project has been building [Dandelion](https://github.com/sfu-arch/dandelion-lib), a microarchitecture intermediate representation, call it $$\mu IR$$, which helps computer architecture designers to abstract their accelerator design into an IR. Using $$\mu IR$$ designers can: analysis, transform and optimize their accelerator and find a design that matches their goal.
+During my Phd I worked on High-Level Synthesis (HLS) tools and developed a framework -- µIR -- that can generate parallel hardware accelerators from your high-level program in C/C++ and Cilk for FPGAs. 
 
-I received my B.Sc. in Computer Engineering-Hardware from Isfahan University of Technology, Isfahan, Iran in 2014.
-
-Since summer 2018, I joined **Huawei Technologies**, Hardware Acceleration Lab, as a Research Engineer.
-
-I release my projects on our lab's repo, [sfu-arch](https://github.com/sfu-arch), every six months. Feel free to test them and you are more than welcome to give me your feedbacks.
 
 <!-- [[Resume](/assets/pdf/resume.pdf)] -->
 [<a href="{{ page.entry | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Resume</a>]
