@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-10-22 15:59:00-0400
+date: 2018-10-22 15:59:00-0400
 inline: true
-name: Chainsaw
+name: muIR
+link: https://github.com/sfu-arch/muir
 ---
 
-A cycle accurate simulator that models the host core, the Chainsaw accelerator, and spatial fabrics of parameterizable size.
+muIR is a tool to generator hardware accelerator from software programs. muIR-Generator uses muIR as an intermediate representation (IR) to design hardware accelerators. Currently, muIR-Generator supports C/C++ and Cilk programs.

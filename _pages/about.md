@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>Vancouver, BC, Canada</p>
-    <p>amiralis@sfu.ca</p>
+    <p>amirali@untether.ai</p>
     <!-- <p>123 your address street</p>
     <p>Your City, State 12345</p> -->
 
