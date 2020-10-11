@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Amirali Sharifian | Publications</title>
+  <meta name="description" content="Amirali Sharifian Resume. [Amirali](http://sfu.ca/~amiralis).
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/publications/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Amirali</strong> Sharifian
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">About</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">Blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">Projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">Publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">Teaching</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Publications</h1>
+    <h5 class="post-description">Publications by categories in reversed chronological order.</h5>
+  </header>
+
+  <article class="post-content Publications clearfix">
+    
+<h3 class="year">2019</h3>
+<ol class="bibliography"><li>
+
+<div id="sharifianMuir">
+  
+    <span class="title">μIR -An intermediate representation for transforming and optimizing
+               the microarchitecture of application accelerators</span>
+    <span class="author">
+      
+        
+          
+            
+              <em>Sharifian, Amirali</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Hojabr, Reza,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Rahimi, Navid,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Liu, Sihao,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Guha, Apala,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Nowatzki, Tony,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                and Shriraman, Arrvindh
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>In Proceedings of the 52nd Annual IEEE/ACM International Symposium
+               on Microarchitecture, MICRO 2019, Columbus, OH, USA, October 12-16,
+               2019</em>
+    
+    
+      2019
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a class="abstract">Abs</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/muir.pdf" target="_blank">PDF</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/muir-slides.pdf" target="_blank">Slides</a>]
+  
+  
+    [<a href="https://github.com/sfu-arch/muir" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Creating high quality application-specific accelerators requires us
+to make iterative changes to both algorithm behavior and microarchitecture, and this is a tedious and error-prone process. High-Level Synthesis (HLS) tools [5, 10] generate RTL for application accelerators from annotated software. Unfortunately, the generated RTL is challenging to change and optimize. The primary limitation of HLS
+is that the functionality and microarchitecture are conflated together in a single language (such as C++). Making changes to the accelerator design may require code restructuring, and microarchitecture
+optimizations are tied with program correctness. We propose a generalized intermediate representation for describing accelerator microarchitecture, µIR, and an associated pass framework, µopt. µIR represents the accelerator as a concurrent structural
+graph in which the components roughly correspond to microarchitecture level hardware blocks (e.g., function units, network, memory
+banks). There are two important benefits i) it decouples microarchitecture optimizations from algorithm/program optimizations. ii)
+it decouples microarchitecture optimizations from the RTL generation. Computer architects express their ideas as a set of iterative transformations of the µIR graph that successively refine the accelerator architecture. The µIR graph is then translated to Chisel, while maintaining the execution model and cycle-level performance characteristics. In this paper, we study three broad classes of optimizations: Timing (e.g., Pipeline re-timing), Spatial (e.g., Compute tiling), and
+Higher-order Ops (e.g., Tensor function units) that deliver between 1.5 — 8× improvement in performance; overall 5—20× speedup
+compared to an ARM A9 1Ghz. We evaluate the quality of the autogenerated accelerators on an Arria 10 FPGA and under ASIC UMC
+28nm technology</p>
+  </span>
+  
+</div>
+</li></ol>
+
+<h3 class="year">2018</h3>
+<ol class="bibliography"><li>
+
+<div id="sharifianTapas">
+  
+    <span class="title">TAPAS: Generating Parallel Accelerators from Parallel Programs</span>
+    <span class="author">
+      
+        
+          
+            
+              
+                Margerm, Steve,
+              
+            
+          
+        
+      
+        
+          
+            
+              <em>Sharifian, Amirali</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Guha, Apala,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Shriraman, Arrvindh,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                and Pokam, Giells
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>In The 51th Annual IEEE/ACM International Symposium on Microarchitecture</em>
+    
+    
+      2018
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a class="abstract">Abs</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/TAPAS.pdf" target="_blank">PDF</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/tapas_slides.pdf" target="_blank">Slides</a>]
+  
+  
+    [<a href="https://github.com/sfu-arch/tapas" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>High-level-synthesis (HLS) tools generate accelerators from software programs to ease the task of building hardware. Unfortunately, current HLS tools have limited support for concurrency, which impacts the speedup achievable with the generated accelerator.
+Current approaches only target fixed static patterns (e.g., pipeline, data-parallel kernels). This constraints the ability of software programmers to express concurrency.
+Moreover, the generated accelerator loses a key benefit of parallel hardware, dynamic asynchrony, and the potential to hide long latency and cache misses.
+
+We have developed TAPAS, an HLS toolchain for generating parallel accelerators from programs with dynamic parallelism. TAPAS is built on top of Tapir [22], [39], which embeds fork-join parallelism into the compiler’s
+intermediate-representation. TAPAS leverages the compiler IR to identify parallelism and synthesizes the hardware logic. TAPAS provides first-class architecture
+support for spawning, coordinating and synchronizing tasks during accelerator execution. We demonstrate TAPAS can generate accelerators for concurrent
+programs with heterogeneous, nested and recursive parallelism. Our evaluation on Intel-Altera DE1-SoC and Arria-10 boards demonstrates that TAPAS generated accelerators achieve 20× the power efficiency of an Intel Xeon, while maintaining comparable performance. We also show that TAPAS enables lightweight tasks that can be spawned in ’10 cycles and enables accelerators to exploit available fine-grain parallelism. TAPAS is a complete HLS toolchain for synthesizing parallel programs to accelerators and is open-sourced.</p>
+  </span>
+  
+</div>
+</li></ol>
+
+<h3 class="year">2016</h3>
+<ol class="bibliography"><li>
+
+<div id="sharifianChain">
+  
+    <span class="title">CHAINSAW: Von-neumann Accelerators to Leverage Fused Instruction Chains</span>
+    <span class="author">
+      
+        
+          
+            
+              <em>Sharifian, Amirali</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Kumar, Snehasish,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Guha, Apala,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                and Shriraman, Arrvindh
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>In The 49th Annual IEEE/ACM International Symposium on Microarchitecture</em>
+    
+    
+      2016
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a class="abstract">Abs</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/chainsaw.pdf" target="_blank">PDF</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/chainsaw_slides.pdf" target="_blank">Slides</a>]
+  
+  
+    [<a href="https://github.com/sfu-arch/chainsaw" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>A central tenet behind accelerators is to partition a program execution into regions with different behavior (e.g., SIMD, Irregular, Compute-Intensive) and then use behavior-specialized architectures [1] for each region. It is unclear whether the gains in efficiency arise from recognizing that a simpler microarchitecture is sufficient for the acceleratable code region or the actual microarchitecture, or a combination of both. Many proposals [2], [3] seem to choose dataflow-based accelerators which encounters challenges with fabric utilization and static power when the available instruction parallelism is below the peak operation parallelism available [4].
+
+In this paper, we develop, Chainsaw, a Von-Neumann based accelerator and demonstrate that many of the fundamental overheads (e.g., fetch-decode) can be amortized by adopting the appropriate instruction abstraction. The key insight is the notion of chains, which are compiler fused sequences of instructions. chains adapt to different acceleration behaviors by varying the length of the chains and the types of instructions that are fused into a chain. Chains convey the producer-consumer locality between dependent instructions, which the Chainsaw architecture then captures by temporally scheduling such operations on the same execution unit and uses pipeline registers to forward the values between dependent operations. Chainsaw is a generic multi-lane architecture (4-stage pipeline per lane) and does not require any specialized compound function units; it can be reloaded enabling it to accelerate multiple program paths. We have developed a complete LLVM-based compiler prototype and simulation infrastructure and demonstrated that a 8-lane Chainsaw is within 73% of the performance of an ideal dataflow architecture, while reducing the energy consumption by 45% compared to a 4-way OOO processor.</p>
+  </span>
+  
+</div>
+</li>
+<li>
+
+<div id="kumarPeruse">
+  
+    <span class="title">Peruse and Profit: Estimating the Accelerability of Loops</span>
+    <span class="author">
+      
+        
+          
+            
+              
+                Kumar, Snehasish,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                Srinivasan, Vijayalakshmi,
+              
+            
+          
+        
+      
+        
+          
+            
+              <em>Sharifian, Amirali</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                Sumner, Nick,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                and Shriraman, Arrvindh
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>In Proceedings of the 2016 International Conference on Supercomputing</em>
+    
+    
+      2016
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a class="abstract">Abs</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/peruse.pdf" target="_blank">PDF</a>]
+  
+  
+  
+  
+    [<a href="/assets/pdf/peruse_slides.pdf" target="_blank">Slides</a>]
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>There exist a multitude of execution models available today for a developer to target. The choices vary from general purpose processors to fixed-function hardware accelerators with a large number of variations in-between. There is a growing demand to assess the potential benefits of porting or rewriting an application to a target architecture in order to fully exploit the benefits of performance and/or energy efficiency offered by such targets. However, as a first step of this process, it is necessary to determine whether the application has characteristics suitable for acceleration.
+
+In this paper, we present Peruse, a tool to characterize the features of loops in an application and to help the programmer understand the amenability of loops for acceleration. We consider a diverse set of features ranging from loop characteristics (e.g., loop exit points) and operation mixes (e.g., control vs data operations) to wider code region characteristics (e.g., idempotency, vectorizability). Peruse is language, architecture, and input independent and uses the intermediate representation of compilers to do the characterization. Using static analyses makes Peruse scalable and enables analysis of large applications to identify and extract interesting loops suitable for acceleration. We show analysis results for unmodified applications from the SPEC CPU benchmark suite, Polybench, and HPC workloads.
+
+For an end-user it is more desirable to get an estimate of the potential speedup due to acceleration. We use the workload characterization results of Peruse as features and develop a machine-learning based model to predict the potential speedup of a loop when off-loaded to a fixed function hardware accelerator. We use the model to predict the speedup of loops selected by Peruse and achieve an accuracy of 79%.</p>
+  </span>
+  
+</div>
+</li></ol>
+
+<h3 class="year">2013</h3>
+<ol class="bibliography"><li>
+
+<div id="sharifianNetwork">
+  
+    <span class="title">An energy-efficient clustering algorithm for large scale wireless sensor networks</span>
+    <span class="author">
+      
+        
+          
+            
+              
+                Soleimani, M.,
+              
+            
+          
+        
+      
+        
+          
+            
+              <em>Sharifian, A.</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                and Fanian, A.
+              
+            
+          
+        
+      
+    </span>
+
+    <span class="periodical">
+    
+      <em>In 2013 21st Iranian Conference on Electrical Engineering (ICEE)</em>
+    
+    
+      2013
+    
+    </span>
+  
+
+  <span class="links">
+  
+    [<a class="abstract">Abs</a>]
+  
+  
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <span class="abstract hidden">
+    <p>Wireless sensor networks (WSNs) consist of a large number of sensor nodes with limited energy resources. Collecting and transmitting sensed information in an efficient way is one of the challenges in these networks. The clustering algorithm is a solution to reduce energy consumption. It can be helpful to the scalability and network life time. However, the problem of unbalanced energy dissipation is an important issue in cluster based WSNs. In this paper, a new clustering algorithm, named PDKC, is proposed for wireless sensor networks based on node deployment knowledge. However, in PDKC, sensor node location is modelled by Gaussian probability distribution function instead of using GPSs or any other location-aware devices. In the proposed method, cluster heads are selected based on node deployment information, residual energy, node degree and their distance from the base station. The Simulation results indicate that PDKC algorithm prolongs network lifetime, improves the network coverage and balance energy dissipation in comparison to other works.</p>
+  </span>
+  
+</div>
+</li></ol>
+
+
+  </article>
+
+  
+
+  
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2020 Amirali Sharifian.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+        Last updated: Oct, 2020.
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-85007315-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
