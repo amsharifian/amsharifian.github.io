@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Amirali Sharifian
-email: amiralis@sfu.ca
+email: amirali@untether.ai
 description: > # this means to ignore newlines until "url:"
   Amirali Sharifian Resume. [Amirali](http://sfu.ca/~amiralis).
 footer_text: >
@@ -10,7 +10,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site
 # url: 'http://www.sfu.ca/~amiralis' # the subpath of your site, e.g. /blog/
-last_updated: Nov, 2018 # leave blank if you don't want to display last updated
+last_updated: Oct, 2020 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -23,7 +23,7 @@ orcid_id: # your ORCID ID
 contact_note: >
   Email is the best way to reach me!
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-85007315-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
