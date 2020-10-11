@@ -74,7 +74,7 @@ collections:
 
 news_limit: 5
 software_limit: 5
-pub_years: [2018, 2016, 2013]
+pub_years: [2019, 2018, 2016, 2013]
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
